@@ -6,6 +6,9 @@ const app = express()
 app.get('/', function (req, res) {
     res.send('Hello World')
 })
+app.get('/afzal', function (req, res) {
+    res.send('<h1> Mohammad Afzal Khan </h1>')
+})
 
 const port = process.env.PORT || 3000;
 
