@@ -10,6 +10,10 @@ app.get('/afzal', function (req, res) {
     res.send('<h1> Mohammad Afzal Khan </h1>')
 })
 
+app.get('/faizan', function (req, res) {
+    res.send('<h1> Mohammad faizan Siddiqui </h1>')
+})
+
 const port = process.env.PORT || 3000;
 
     app.listen(port, (req, res) => {
